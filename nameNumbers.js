@@ -15,7 +15,6 @@ app.get("/", (req, res) => {
   res.send("Number to their name");
 });
 
-
 app.listen(port, () => {
   console.log(`Server is running on http://${host}:${process.env.PORT}`);
 });
